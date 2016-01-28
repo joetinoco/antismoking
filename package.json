@@ -1,0 +1,13 @@
+{
+	"name": "AntiSmokingQuestionsEngine",
+	"version": "0.1.0",
+	"description": "Questions server for Centennial's hackaton app",
+	"scripts": {
+		"start": "node questionsengine.js"
+	},
+	"dependencies": {
+		"express": "4.13.4",
+  	"mysql": "2.10.2"
+	},
+	"repository": {}
+}
