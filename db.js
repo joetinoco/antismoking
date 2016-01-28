@@ -68,6 +68,7 @@ exports.feedback = function(qid, answer){
   }
   // Placeholder text (TODO: put proper feedbacks in the database)
   fback.text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus elit, dictum eget ipsum ut, consectetur dignissim mi. Aenean molestie odio metus, in euismod justo auctor eu. Donec at ante est. Nunc at gravida nibh. Phasellus finibus suscipit leo eu blandit. Aenean ut massa risus. Vivamus ac magna id est fermentum tristique. Mauris feugiat tortor in ipsum convallis, vitae mollis lorem fringilla. Nullam felis sapien, iaculis eu tortor eget, efficitur vehicula ipsum. Nunc elementum ligula ut fermentum pulvinar. Nullam vitae commodo arcu. Pellentesque interdum mi eu maximus pretium. Aenean sagittis maximus nibh. Vivamus non metus vitae lorem suscipit feugiat eget nec dolor.";
+  fback.text = q[qid].explanation;
   // Get next question (next greater ID)
   i = 1;
   while (typeof q[qid+i] === 'undefined'){
