@@ -2,9 +2,9 @@
 
 var mysql = require("mysql");
 var dbconn = mysql.createConnection({
-  //host: "mysql.josetinoco.com",
-  host: "127.0.0.1",
-  port: 3307, // Use only when tunneling through Centennial's network
+  host: "mysql.josetinoco.com",
+  //host: "127.0.0.1",
+  //port: 3307, // Use only when tunneling through Centennial's network
   user: "centennial",
   password: "123qweasdzxc",
   database: "antismoking",
