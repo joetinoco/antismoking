@@ -3,8 +3,8 @@
 var mysql = require("mysql");
 var dbconn = mysql.createConnection({
   host: "mysql.josetinoco.com",
-  //host: "127.0.0.1",
-  //port: 3307, // Use only when tunneling through Centennial's network
+  // host: "127.0.0.1",
+  // port: 3307, // Use only when tunneling through Centennial's network
   user: "centennial",
   password: "123qweasdzxc",
   database: "antismoking",
@@ -31,6 +31,7 @@ dbconn.connect(function(err){
       qdata.image = rows[i].qstn_url;
       qdata.title = "" // It's in the image
       qdata.answer = rows[i].answer;
+      qdata.explanation = rows[i].explanation;
       choices = [];
       choices.push(rows[i].answer);
       choices.push(rows[i].option1);
