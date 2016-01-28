@@ -1,0 +1,26 @@
+{[
+  {
+    "id": 1234567890,
+    "image": "foo.jpg",
+    "title": "What is the color of Napoleon's white horse?",
+    "choices": {
+      "1": "White",
+      "2": "Brown",
+      "3": "Black",
+      "4": "Fuchsia"
+    },
+    "answer": "1"
+  },
+  {
+    "id": 1234567890,
+    "image": "kee.jpg",
+    "title": "How many hours are in a 24-hour day?",
+    "choices": {
+      "1": "48",
+      "2": "24",
+      "3": "86",
+      "4": "198"
+    },
+    "answer": "2"
+  }
+]}
